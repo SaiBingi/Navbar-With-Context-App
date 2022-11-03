@@ -1,0 +1,57 @@
+.not-found-image {
+  width: 340px;
+  height: 340px;
+}
+
+.lost-your-way-light {
+  margin-top: 20px;
+  font-size: 30px;
+  color: #334155;
+}
+
+.lost-your-way-dark {
+  margin-top: 20px;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.error-msg-light {
+  color: #64748b;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.error-msg-dark {
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .not-found-image {
+    width: 250px;
+    height: 250px;
+  }
+
+  .lost-your-way-light {
+    font-size: 25px;
+  }
+
+  .lost-your-way-dark {
+    font-size: 25px;
+  }
+
+  .error-msg-dark {
+    margin-top: 0px;
+    max-width: 250px;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .error-msg-light {
+    margin-top: 0px;
+    max-width: 250px;
+    text-align: center;
+    line-height: 1.5;
+  }
+}

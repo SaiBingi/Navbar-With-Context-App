@@ -1,0 +1,41 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 88vh;
+}
+
+.bg-container-dark {
+  background-color: #000000;
+}
+
+.route-image {
+  width: 110px;
+  height: 110px;
+}
+
+.route-name-dark {
+  font-size: 38px;
+  color: #ffffff;
+}
+
+.route-name-light {
+  font-size: 38px;
+  color: #000000;
+}
+
+@media screen and (max-width: 767px) {
+  .route-image {
+    width: 90px;
+    height: 90px;
+  }
+
+  .route-name-dark {
+    font-size: 30px;
+  }
+
+  .route-name-light {
+    font-size: 30px;
+  }
+}

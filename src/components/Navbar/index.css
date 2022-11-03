@@ -1,0 +1,77 @@
+.navbar-container-light {
+  padding: 20px 25px 20px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: #dcdcdc solid 3px;
+  list-style-type: none;
+}
+
+.navbar-container-dark {
+  padding: 20px 25px 20px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333333;
+  border-bottom: #333333 solid 3px;
+  list-style-type: none;
+}
+
+.website-logo {
+  width: 55px;
+  height: 50px;
+}
+
+.routes {
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.route-light {
+  color: #1e293b;
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.route-dark {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.theme-button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .website-logo {
+    width: 40px;
+    height: 35px;
+  }
+
+  .route-light {
+    font-size: 15px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .route-dark {
+    font-size: 15px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+}
