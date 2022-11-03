@@ -41,6 +41,7 @@ const Navbar = () => (
             </Link>
           </ul>
           <button
+            testid="theme"
             type="button"
             onClick={onClickToggleTheme}
             className="theme-button"
